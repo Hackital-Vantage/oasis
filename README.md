@@ -1,5 +1,5 @@
 # Oasis
-Based on Ready Player One - Decentralized Oasis virtual world
+Inspired by Ready Player One - Decentralized Oasis virtual world
 
 ## Components
 - node.js game app
