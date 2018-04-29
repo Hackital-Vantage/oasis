@@ -8,4 +8,8 @@ Based on Ready Player One - Decentralized Oasis virtual world
 - metamask for ID and ETH funding
 - IPFS for certificates and video
 
+## Build steps
+- npm i
+- node app.js
+- Launch browser 127.0.0.1:400
 
