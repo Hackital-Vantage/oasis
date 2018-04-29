@@ -1,7 +1,7 @@
-# oasis
+# Oasis
 Based on Ready Player One - Decentralized Oasis virtual world
 
-*Components
+## Components
 - node.js game app
 - smart contract
 - sign up page
