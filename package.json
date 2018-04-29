@@ -1,0 +1,19 @@
+{
+  "name": "oasis",
+  "version": "1.0.0",
+  "description": "Based on Ready Player One - Decentralized Oasis virtual world",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hackital-Vantage/oasis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hackital-Vantage/oasis/issues"
+  },
+  "homepage": "https://github.com/Hackital-Vantage/oasis#readme"
+}
