@@ -46,6 +46,10 @@ contract Oasis is Ownable {
 		}
 	}
 	
+	function getKey () public returns (uint) {
+	    return (playersMap[msg.sender].correctAnswer);
+	}
+	
 	function checkAndTakeOwnership (uint _answer) public returns (string) {
 		//players.push(Player(_name, msg.value, msg.sender, 0));
 		if (_answer == answer1) {
@@ -54,10 +58,12 @@ contract Oasis is Ownable {
 		if (_answer == answer2) {
 		   playersMap[msg.sender].correctAnswer += 1; 
 		}
-        require(playersMap[msg.sender].correctAnswer == 2);
+        if (playersMap[msg.sender].correctAnswer == 2) {
         address owner = msg.sender;
         address admin = msg.sender;
         return ("QmRFgaFQuHrENKxbgVjWY1g5oNMbQcGz9N6PvyhZePLEqG");
+        }
+        return "No dice";
 	}
 	
 	function killWorld () external onlyOwner {
